@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.Container_general {
+ 
+    position: relative;
+    margin: 25px;
+    border: solid 1px black;
+}
+
+.boutton_num {
+    width: fit-content;
+    /* height: 10%; */
+    border: solid 1px black;
+    padding: 1em;
+}
+
+.operation {
+    display: flex;
+    width: fit-content;
+    border: solid 1px black;
+    margin-bottom: 2em;
+}
+
+.boutton_num:hover {
+    background-color: rgb(100, 98, 98);
+}
+
+.nombres {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+    margin-bottom: 2em;
+}
+
+.ecran {
+    display: flex;
+    height: 30px;
+    margin-bottom: 1em;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.screen {
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    
+}
